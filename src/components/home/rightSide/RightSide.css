@@ -1,0 +1,172 @@
+.RightSide {
+  padding-right: 20px;
+}
+.RightSide .input {
+  width: 98%;
+  margin: 20px auto 10px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+}
+.RightSide .input input {
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+.RightSide .input svg {
+  font-size: 22px;
+  margin: 0 10px;
+}
+.RightSide .table table {
+  width: 100%;
+  margin: 30px 0 0;
+  border: 1px solid grey;
+}
+.RightSide .table table th,
+.RightSide .table table td {
+  border-left: 1px solid grey;
+  padding: 5px 10px;
+}
+.RightSide .table table tbody tr:nth-of-type(even) {
+  background-color: #e7f7dc;
+}
+.RightSide .table table tbody tr:nth-of-type(odd) {
+  background-color: #f5fbed;
+}
+.RightSide .table table tbody .checkbox {
+  padding: 2px;
+}
+.RightSide .table table tbody .checkbox > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.RightSide .table table tbody input {
+  width: 25px;
+  height: 25px;
+}
+.RightSide .table table tbody .number {
+  text-align: center;
+  font-weight: 500;
+}
+.RightSide .table table tbody .type {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.RightSide .table table tbody .type > p {
+  margin: 0;
+}
+.RightSide .table table tbody .type .type > p {
+  color: #2a7ff5;
+  font-weight: 500;
+  margin-left: 13px;
+}
+.RightSide .table table tbody .type .btns button {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 3px;
+}
+.RightSide .table table tbody .time {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: grey;
+}
+.RightSide .table table tbody .time > div:nth-of-type(2) {
+  margin: 0 2px 0 9px;
+}
+.RightSide .table table tbody .name p {
+  margin: 0;
+}
+.RightSide .table table tbody .name p:first-of-type {
+  font-weight: 500;
+}
+.RightSide .table table tbody .name p:last-of-type {
+  font-size: 14px;
+  color: grey;
+}
+.RightSide .table table tbody .state > p {
+  font-weight: 500;
+  margin: 0;
+}
+.btnControl ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.btnControl ul li {
+  margin: 0;
+  cursor: pointer;
+}
+.btnControl ul li {
+  color: grey;
+  font-size: 15px;
+  transition: all 0.3s ease-out;
+}
+.btnControl ul li.active {
+  font-weight: 700;
+  color: #000;
+  font-size: 18px;
+}
+.noBill {
+  border: none !important;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .RightSide {
+    padding: 0;
+  }
+  .btnControl ul li {
+    font-size: 13px;
+  }
+  .btnControl ul li.active {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .RightSide .input {
+    width: 95%;
+    margin: 10px auto;
+  }
+  .RightSide .input svg {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  .RightSide .input input {
+    font-size: 15px;
+  }
+  .btnControl ul {
+    margin-top: 15px;
+  }
+  .RightSide .table table {
+    margin: 15px auto;
+    width: 96%;
+  }
+  .RightSide .table table th {
+    font-size: 15px;
+  }
+  .RightSide .table table td {
+    font-size: 11px;
+  }
+  .RightSide .table table tbody .type {
+    display: block;
+  }
+  .RightSide .table table tbody .time {
+    font-size: 10px;
+  }
+  .RightSide .table table tbody .type .btns button {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0 2px;
+  }
+}

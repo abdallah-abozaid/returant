@@ -1,0 +1,203 @@
+.offcanvas-end {
+  width: 75% !important;
+}
+.OffcanvasList .desc p {
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+.OffcanvasList .desc {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.OffcanvasList .desc img {
+  width: 120px;
+  border-radius: 10px;
+}
+.offcanvas-body {
+  padding-right: 0;
+  padding-left: 0;
+}
+.OffcanvasList .selectSize h5,
+.OffcanvasList .addions h5 {
+  background-color: rgb(224, 224, 224);
+  margin-top: 20px;
+  padding: 6px 20px 10px;
+}
+.OffcanvasList .selectSize > div {
+  padding: 6px 20px;
+}
+.OffcanvasList .selectSize > div .btn-group {
+  display: flex;
+  justify-content: space-around;
+}
+.OffcanvasList .selectSize > div .btn-group .btn {
+  width: 250px;
+  padding: 6px 20px;
+  border: 1px solid rgb(175, 175, 175);
+  background-color: #eee;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
+}
+.OffcanvasList .selectSize > div .btn-group .btn > div > div:last-of-type {
+  color: rgb(0, 190, 0);
+}
+.OffcanvasList
+  .selectSize
+  > div
+  .btn-group
+  .btn.active
+  > div
+  > div:last-of-type {
+  color: white;
+}
+.OffcanvasList .selectSize > div .btn-group .btn.active {
+  background-color: rgb(202, 0, 0);
+  color: white !important;
+}
+.btn-group > .btn {
+  flex: unset;
+}
+.btn-group .innerbtn {
+  display: flex;
+  justify-content: space-between;
+}
+.addions > div:first-of-type {
+  display: flex;
+}
+.addions .btn-group,
+.addions .btn-group button {
+  display: block !important;
+}
+.addions .Addion {
+  margin-left: 10px;
+  padding-right: 20px;
+}
+.addions .Addion h6 {
+  color: blue;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.OffcanvasList .addions .Addion .btn-group .btn {
+  width: 150px;
+  padding: 6px 20px;
+  border: 1px solid rgb(175, 175, 175);
+  background-color: #eee;
+  border-radius: 10px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.OffcanvasList .addions .Addion .btn-group .btn > div > div:last-of-type {
+  color: rgb(0, 190, 0);
+}
+.OffcanvasList .addions .Addion .btn-group .btn.active {
+  background-color: rgb(202, 0, 0);
+  color: white !important;
+}
+.OffcanvasList
+  .addions
+  .Addion
+  .btn-group
+  .btn.active
+  > div
+  > div:last-of-type {
+  color: white;
+}
+.lastAddion h6 {
+  color: blue;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+.lastAddion .btn-group {
+  padding-right: 20px;
+  display: flex !important;
+}
+.lastAddion .btn-group .btn {
+  width: 120px;
+  padding: 6px 20px;
+  border: 1px solid rgb(175, 175, 175);
+  background-color: #eee;
+  border-radius: 10px !important;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.lastAddion .innerbtn {
+  display: block;
+  text-align: right;
+}
+.lastAddion .btn-group .btn > div > div:last-of-type {
+  color: rgb(0, 190, 0);
+}
+.lastAddion .btn-group .btn.active > div > div:last-of-type {
+  color: white;
+}
+.lastAddion .btn-group .btn.active {
+  background-color: rgb(202, 0, 0);
+  color: white !important;
+}
+.lstForm {
+  display: flex;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+.lstForm > input {
+  width: 450px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.lstForm .amount {
+  display: flex;
+  margin-left: 10px;
+}
+.lstForm .amount label {
+  font-weight: bold;
+  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.lstForm .amount .amounthandle {
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.lstForm .amount .amounthandle input {
+  width: 100px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+}
+.lstForm .amount .amounthandle button {
+  background-color: green;
+  color: white;
+  font-weight: 900;
+  font-size: 26px;
+  display: flex;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+}
+.lstForm > div:last-of-type button {
+  background-color: rgb(177, 2, 2);
+  border: none;
+  padding: 7px 30px;
+  font-weight: 700;
+  color: white;
+}
+.offcanvas-header {
+  padding-bottom: 0;
+}
+.offcanvas-title {
+  font-size: 13px;
+  color: grey;
+}

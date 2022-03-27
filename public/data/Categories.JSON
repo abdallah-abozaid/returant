@@ -1,0 +1,17 @@
+[
+  { "id": 1, "category": "AllCategories", "title": "كل المنتجات" },
+  { "id": 2, "category": "MostWanted", "title": "الاكثر طلبا" },
+  { "id": 3, "category": "SeeFood", "title": "مأكولات بحريه" },
+  { "id": 4, "category": "Pizza", "title": "بيتزا" },
+  { "id": 5, "category": "meat", "title": "لحوم" },
+  { "id": 6, "category": "chicken", "title": "فراخ" },
+  { "id": 7, "category": "sandwichs", "title": "ساندوتشات" },
+  { "id": 8, "category": "Burger", "title": "برجر" },
+  { "id": 9, "category": "FamilyMeals", "title": "وجبات عائليه" },
+  { "id": 10, "category": "Shawarma", "title": "شاورما" },
+  { "id": 11, "category": "casseroles", "title": "طواجن" },
+  { "id": 12, "category": "salads", "title": "سلطات " },
+  { "id": 13, "category": "appetizers", "title": "مقبلات " },
+  { "id": 14, "category": "hotDrinks", "title": "مشروبات ساخنه" },
+  { "id": 15, "category": "coldDrinks", "title": "مشروبات بارده" }
+]

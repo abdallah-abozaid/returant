@@ -1,0 +1,43 @@
+.allFoods {
+  padding: 20px;
+}
+.card {
+  padding: 7px !important;
+  border: 2px solid rgb(182, 182, 182);
+  border-radius: 0;
+}
+.card img {
+  height: 120px;
+}
+.card-body {
+  padding: 5px !important;
+}
+.card-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-text > div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+.btnAdd,
+.btnAdd2 {
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  border: 0;
+  background-color: rgb(233, 233, 233);
+}
+.btnAdd:hover,
+.btnAdd2 {
+  background-color: rgb(163, 163, 163);
+}
+.btnAdd2 {
+  cursor: no-drop !important;
+}
+.description {
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-size: 11px;
+  color: grey;
+}

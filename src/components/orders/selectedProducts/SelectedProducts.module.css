@@ -1,0 +1,164 @@
+.row div {
+  border: 1px solid #ced4da;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 10px;
+}
+.row2 > div {
+  padding: 10px 0 1px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.row div p,
+.row2 div p {
+  margin: 0;
+  font-weight: 500;
+}
+.row,
+.row2 {
+  width: 100%;
+  margin: 0;
+}
+.row2 {
+  border: 1px solid grey;
+  background-color: #0000ff17;
+  border-radius: 5px;
+  width: 98%;
+  margin: 10px auto 20px;
+  box-shadow: 2px 2px 5px #0000ff1f;
+}
+.table {
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+.row2 > div > p {
+  color: rgb(0, 0, 168);
+}
+
+.Bill > div:first-of-type > div {
+  color: rgb(63, 63, 63);
+  font-weight: 700;
+  padding: 6px 11px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.Bill .allPrices {
+  display: flex;
+  color: rgb(63, 63, 63);
+  font-weight: 700;
+  padding: 8px 13px 12px;
+  margin: 20px 11px 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+  border: 1px solid grey;
+}
+.billBTNs > div {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin: 10px 11px 12px;
+}
+.billBTNs > div button {
+  width: 48%;
+  border: none;
+}
+.billBTNs > div:first-of-type button:first-of-type {
+  background-color: rgb(70, 70, 255);
+  color: white;
+  padding: 9px 9px 12px;
+}
+.billBTNs > div:first-of-type button:last-of-type {
+  background-color: green;
+  color: white;
+  padding: 9px 9px 12px;
+}
+
+.billBTNs > div:last-of-type button:first-of-type {
+  padding: 9px 9px 12px;
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+}
+.billBTNs > div:last-of-type button:last-of-type {
+  padding: 9px 9px 12px;
+  border: 1px solid rgb(70, 70, 255);
+  background-color: white;
+  color: rgb(70, 70, 255);
+}
+.lastCol > div {
+  display: flex;
+  padding-right: 10%;
+}
+.lastCol {
+  padding: 0 !important;
+  color: grey !important;
+  background-color: #0000ff1f;
+  width: 96%;
+  margin: 15px auto 0;
+  border-radius: 5px;
+}
+.lastCol > div p {
+  margin: 0 5px;
+}
+.lastCol > div > div {
+  display: flex;
+  align-items: center;
+}
+.lastCol > div > div:first-of-type p {
+  font-size: 22px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.size {
+  display: flex !important;
+}
+.size > div:first-of-type {
+  background-color: #0000ff1f !important;
+  padding: 5px;
+}
+.size > div:last-of-type p {
+  background-color: transparent !important;
+  margin-right: 10px;
+}
+.btnAmount {
+  border: 1px solid grey !important;
+  width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnAmountGroup > p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.comment {
+  display: block !important;
+  background-color: #0000ff1f;
+  width: 96%;
+  color: rgb(94, 94, 94);
+  font-weight: 100 !important;
+  margin: 5px auto 0;
+  border-radius: 5px;
+}
+.comment p {
+  font-size: 12px !important;
+}
+.comment div {
+  display: block !important;
+  margin-bottom: 5px;
+}
+.comment div:last-of-type p {
+  font-size: 11px !important;
+  padding: 5px;
+}
+.addionsTitle,
+.comment div:first-of-type p {
+  background-color: #0000ff1f;
+  padding: 7px 0;
+}
