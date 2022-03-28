@@ -4,6 +4,7 @@ import AppNavbar from "./components/Navbar/AppNavbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Orders from "./pages/Orders";
+import Bills from "./pages/Bills";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="/Bills" element={<Bills />} />
       </Routes>
     </div>
   );

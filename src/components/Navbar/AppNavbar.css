@@ -2,7 +2,6 @@
   background-color: #000;
   width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 .appNavbar a {
   background-color: white;
@@ -11,6 +10,7 @@
   display: block;
   padding: 5px 15px;
   font-weight: 500;
+  margin: 0 10px;
   border-radius: 5px;
 }
 .appNavbar a.active {

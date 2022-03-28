@@ -1,0 +1,123 @@
+.OrderCard .desc {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.OrderCard .accordion-button {
+  padding: 8px 0;
+  border: none;
+  font-size: 12px;
+}
+.OrderCard .accordion-item {
+  border: none;
+  margin-bottom: 10px;
+}
+.OrderCard .accordion-button::after {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  transform: translateY(-10px);
+  background-size: 0.8em;
+}
+
+.OrderCard .card-title {
+  margin-bottom: 15px;
+}
+.OrderCard .accordion-body {
+  padding: 5px 0.6em 0.6em;
+  font-size: 13px;
+}
+.OrderCard .outer {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  background: linear-gradient(to right, #fff, rgb(65, 65, 65));
+  width: 4px;
+  height: 80%;
+}
+.OrderCard .accordion-button:not(.collapsed) {
+  background-color: grey;
+  color: white;
+}
+.OrderCard .Time,
+.OrderCard .HeavyTime {
+  position: absolute;
+  color: white;
+  padding: 5px;
+  text-align: left;
+  font-size: 14px;
+  width: 100px;
+  height: 50px;
+  top: -7px;
+  left: 10px;
+  border-end-end-radius: 4px;
+  box-shadow: 1px 1px 8px rgb(211, 211, 211);
+}
+.OrderCard .HeavyTime {
+  background-color: red;
+}
+.OrderCard .Time {
+  background-color: green;
+}
+.OrderCard .Time p,
+.OrderCard .HeavyTime p {
+  margin-bottom: 0;
+  padding-left: 5px;
+  font-size: 12px;
+}
+.OrderCard .Time::after,
+.OrderCard .HeavyTime::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 0px;
+  right: -6px;
+  border-style: solid;
+  border-width: 3px;
+}
+.OrderCard .HeavyTime::after {
+  border-color: transparent transparent red red;
+}
+.OrderCard .Time::after {
+  border-color: transparent transparent green green;
+}
+.OrderCard .Time::before,
+.OrderCard .HeavyTime::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255) transparent transparent rgb(255, 255, 255);
+}
+.OrderCard .card-body {
+  box-shadow: 2px 2px 10px rgb(165, 165, 165);
+}
+.OrderCard .close {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease-out;
+}
+.OrderCard .close:hover {
+  background-color: grey;
+  color: white;
+}
+.OrderCard .addions div {
+  display: flex;
+  align-items: center;
+}
+.OrderCard .addions svg {
+  margin-top: -3px;
+}
+.OrderCard .addions p {
+  margin-bottom: 4px;
+  margin-right: 5px;
+}

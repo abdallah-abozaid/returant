@@ -10,6 +10,9 @@ const AppNavbar = () => {
       <NavLink to="/orders" activeclassname="active">
         القائمة
       </NavLink>
+      <NavLink to="/Bills" activeclassname="active">
+        الطلبات
+      </NavLink>
     </div>
   );
 };

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "BillNumber": 222,
+    "FoodName": " دجاج مشوي",
+    "amount": 2,
+    "addions": [
+      { "id": 1, "addion": "اضافة رقم 1" },
+      { "id": 2, "addion": "اضافة رقم 2" },
+      { "id": 3, "addion": "اضافة رقم 3" }
+    ],
+    "commint": "هذا النص عباره عن تعليق يمكن استبداله باي نص اخر",
+    "time": "10:00 Am",
+    "timeRemain": "30 دقيقة",
+    "state": 0
+  },
+  {
+    "id": 2,
+    "BillNumber": 321,
+    "FoodName": " برجر بالدجاج",
+    "amount": 1,
+    "addions": [],
+    "commint": "هذا النص عباره عن تعليق يمكن استبداله باي نص اخر",
+    "time": "10:00 Am",
+    "timeRemain": "30 دقيقة",
+    "state": 1
+  },
+  {
+    "id": 3,
+    "BillNumber": 432,
+    "FoodName": " بيتزا  بيتزا",
+    "amount": 1,
+    "addions": [
+      { "id": 1, "addion": "اضافة رقم 1" },
+      { "id": 2, "addion": "اضافة رقم 2" }
+    ],
+    "commint": "هذا النص عباره عن تعليق يمكن استبداله باي نص اخر",
+    "time": "10:00 Am",
+    "timeRemain": "30 دقيقة",
+    "state": 0
+  },
+  {
+    "id": 4,
+    "BillNumber": 555,
+    "FoodName": " دجاج مشوي",
+    "amount": 3,
+    "addions": [
+      { "id": 1, "addion": "اضافة رقم 1" },
+      { "id": 2, "addion": "اضافة رقم 2" }
+    ],
+    "commint": "هذا النص عباره عن تعليق يمكن استبداله باي نص اخر",
+    "time": "10:00 Am",
+    "timeRemain": "30 دقيقة",
+    "state": 1
+  },
+  {
+    "id": 5,
+    "BillNumber": 312,
+    "FoodName": " دجاج مشوي",
+    "amount": 2,
+    "addions": [],
+    "commint": "هذا النص عباره عن تعليق يمكن استبداله باي نص اخر",
+    "time": "10:00 Am",
+    "timeRemain": "30 دقيقة",
+    "state": 0
+  },
+  {
+    "id": 6,
+    "BillNumber": 543,
+    "FoodName": " دجاج مشوي",
+    "amount": 1,
+    "addions": [
+      { "id": 1, "addion": "اضافة رقم 1" },
+      { "id": 2, "addion": "اضافة رقم 2" },
+      { "id": 3, "addion": "اضافة رقم 3" },
+      { "id": 4, "addion": "اضافة رقم 4" }
+    ],
+    "commint": "هذا النص عباره عن تعليق يمكن استبداله باي نص اخر",
+    "time": "10:00 Am",
+    "timeRemain": "30 دقيقة",
+    "state": 1
+  }
+]
