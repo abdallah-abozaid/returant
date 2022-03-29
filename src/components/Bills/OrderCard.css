@@ -37,8 +37,12 @@
   width: 4px;
   height: 80%;
 }
-.OrderCard .accordion-button:not(.collapsed) {
-  background-color: grey;
+.OrderCard .NoAddions .accordion-button:not(.collapsed) {
+  background-color: #ddd;
+  color: #000;
+}
+.OrderCard .ExistAddions .accordion-button:not(.collapsed) {
+  background-color: rgb(187, 124, 124);
   color: white;
 }
 .OrderCard .Time,
