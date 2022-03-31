@@ -45,6 +45,9 @@ const SelectedProducts = () => {
   //handle with offansive model of pay
   const [ModalShow, setModalShow] = useState(false);
 
+  //handle with offansive model of Print
+  const [ModalPrint, setModalPrint] = useState(false);
+
   const handleClose = () => {
     setoffansiveItem({});
     setShow(false);
@@ -377,8 +380,124 @@ const SelectedProducts = () => {
                   </div>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button onClick={() => setModalShow(false)}>تراجع</Button>
-                  <Button>دفع</Button>
+                  <Button
+                    onClick={() => {
+                      setModalShow(false);
+                    }}
+                  >
+                    تراجع
+                  </Button>
+                  <Button
+                    onClick={() => {
+                      setModalShow(false);
+                      setModalPrint(true);
+                    }}
+                  >
+                    دفع
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+
+              {/* medel of Print */}
+              <Modal
+                show={ModalPrint}
+                onHide={() => setModalPrint(false)}
+                size="md"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+              >
+                <Modal.Body>
+                  <div className={classes.PrintBill}>
+                    <div className="row ">
+                      <div className="col-6">Logo</div>
+                      <div className="col-6">Scanner</div>
+                    </div>
+                    <div>
+                      <h5>مستودع ماليه الفرح العنزي</h5>
+                      <div className={classes.flexing}>
+                        <div>
+                          <p>رقم التسجيل الضريبي</p>
+                          <p>12345678965358</p>
+                        </div>
+                        <div>
+                          <p> التسجيل التجاري</p>
+                          <p>123965358</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p>سكاكا حي الفيصلية</p>
+                        <p>34567829</p>
+                      </div>
+                      <div>
+                        <p>بيانات العميل </p>
+                        <p>تمويل سلطانه</p>
+                      </div>
+                      <div className={classes.flexing}>
+                        <div>
+                          <p>تسجيله الضريبي</p>
+                          <p>12345678965358</p>
+                        </div>
+                        <div>
+                          <p> سجله التجاري</p>
+                          <p>123965358</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h5>فاتوره ضريبية</h5>
+                      <p>2021-12-22 22:09</p>
+                      <p>Invoice id=32</p>
+                      <div>
+                        <p>اسم الصنف</p>
+                        <div>
+                          <p>القيمه</p>
+                          <p>رشف 15%</p>
+                          <p>خصم</p>
+                          <p>سعر الجمهور </p>
+                          <p>الكمية</p>
+                        </div>
+                      </div>
+                      <div>
+                        {Items &&
+                          Items.map((item) => (
+                            <div key={item.id}>
+                              <p
+                                style={{ fontWeight: "700", marginTop: "5px" }}
+                              >
+                                {item.title}:
+                              </p>
+                              <div>
+                                <p>{item.totalPrice}</p>
+                                <p>6.6 </p>
+                                <p>12%</p>
+                                <p>
+                                  {item.totalPrice -
+                                    item.totalPrice * (12 / 100)}
+                                </p>
+                                <p>{item.amount}</p>
+                              </div>
+                            </div>
+                          ))}
+                      </div>
+                      <div>
+                        <div>
+                          <p>القيمه قبل الضريبة</p>
+                          <p>{TotalPrice}</p>
+                        </div>
+                        <div>
+                          <p> قيمه الضريبه المضافة</p>
+                          <p>55.6</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p>إجمالي القيمه شامله الضريبه</p>
+                        <p>{TotalPrice + 55.6}</p>
+                      </div>
+                    </div>
+                  </div>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="px-4">طباعة</Button>
                 </Modal.Footer>
               </Modal>
               <button onClick={() => setModalCommentShow(true)}>

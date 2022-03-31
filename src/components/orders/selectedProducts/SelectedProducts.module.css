@@ -162,3 +162,81 @@
   background-color: #0000ff1f;
   padding: 7px 0;
 }
+.PrintBill {
+  text-align: center;
+  padding: 20px 10px;
+}
+.PrintBill > div:first-of-type {
+  height: 100px;
+}
+.PrintBill p,
+.PrintBill h5 {
+  margin-bottom: 0px;
+}
+.PrintBill > div:nth-of-type(2) .flexing {
+  display: flex;
+  justify-content: space-around;
+}
+.PrintBill > div:nth-of-type(2) .flexing > div p:first-of-type,
+.PrintBill > div:nth-of-type(2) > div:nth-of-type(2) > p:first-of-type,
+.PrintBill > div:nth-of-type(2) > div:nth-of-type(3) > p:first-of-type,
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(3) > div p:first-of-type,
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(4) > p:first-of-type {
+  font-weight: 500;
+  margin-top: 5px;
+}
+.PrintBill > div:nth-of-type(2) .flexing > div p:last-of-type,
+.PrintBill > div:nth-of-type(2) > div:nth-of-type(2) > p:last-of-type,
+.PrintBill > div:nth-of-type(2) > div:nth-of-type(3) > p:last-of-type,
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(3) > div p:last-of-type {
+  font-size: 15px;
+}
+
+.PrintBill > div:nth-of-type(3) {
+  margin-top: 40px;
+}
+.PrintBill h5:last-of-type {
+  margin-bottom: 10px;
+}
+.PrintBill > div:nth-of-type(3) > p:first-of-type {
+  font-weight: 500;
+}
+.PrintBill > div:nth-of-type(3) > p {
+  font-size: 15px;
+}
+.PrintBill > div:nth-of-type(3) > div:first-of-type {
+  border: 1px solid #000;
+  padding: 5px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+.PrintBill > div:nth-of-type(3) > div:first-of-type > div {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0;
+  font-size: 15px;
+}
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(2) {
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(2) > div:not(:last-of-type) {
+  border-bottom: 1px solid #000;
+}
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(2) > div div {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0;
+  font-size: 13px;
+}
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(2) > div > p {
+  font-size: 14px;
+}
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(3) {
+  display: flex;
+  justify-content: space-around;
+}
+.PrintBill > div:nth-of-type(3) > div:nth-of-type(4) > p:last-of-type {
+  font-weight: 700;
+  font-size: 22px;
+}
