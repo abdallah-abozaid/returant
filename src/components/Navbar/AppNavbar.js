@@ -13,6 +13,9 @@ const AppNavbar = () => {
       <NavLink to="/Bills" activeclassname="active">
         الطلبات
       </NavLink>
+      <NavLink to="/capsolute" activeclassname="active">
+        الفواتير
+      </NavLink>
     </div>
   );
 };

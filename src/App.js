@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Orders from "./pages/Orders";
 import Bills from "./pages/Bills";
+import Capsolute from "./pages/Capsolute";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/orders" element={<Orders />} />
         <Route path="/Bills" element={<Bills />} />
+        <Route path="/capsolute" element={<Capsolute />} />
       </Routes>
     </div>
   );

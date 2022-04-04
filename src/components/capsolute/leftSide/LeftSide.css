@@ -1,0 +1,113 @@
+.LeftSide {
+  border-right: 1px solid grey;
+  padding-top: 20px;
+}
+.LeftSide .orders .orderBtns {
+  display: block;
+}
+.LeftSide .orders .orderBtns button {
+  border: none;
+  padding: 5px 10px;
+  margin: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2a7ff3;
+}
+.LeftSide .orders .orderContent {
+  padding-right: 0px;
+  border: none;
+}
+
+.LeftSide .orders .orderContent .content {
+  font-size: 14px;
+  background-color: rgb(248, 248, 248);
+  padding: 10px 15px;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.LeftSide .orders .orderContent .content > div:first-of-type {
+  font-size: 14px;
+  font-weight: 500;
+}
+.LeftSide .orders .orderContent .content > div:last-of-type {
+  font-size: 13px;
+  color: grey;
+}
+.LeftSide .orders .addions {
+  margin-bottom: 10px;
+}
+.LeftSide .orders .addions p {
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: grey;
+}
+.LeftSide .orders .orderContent .content p,
+.LeftSide .orders .customerContent .content p {
+  margin-bottom: 8px;
+}
+.LeftSide .orders .orderContent .content div div:last-of-type p:first-of-type {
+  margin-left: 0px;
+  text-align: left;
+}
+.LeftSide .orders .orderContent .lastContent1 p {
+  color: #2a7ff3;
+  font-weight: 500;
+}
+.LeftSide .orders .orderContent .lastContent2 p {
+  color: #ff0000;
+  font-weight: 500;
+}
+.LeftSide .orders .orderContent .lastContent2 {
+  margin-bottom: 15px;
+}
+.LeftSide .orders .customerContent {
+  border-bottom: 1px solid grey;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+.LeftSide .orders .customerContent .content > div:first-of-type {
+  font-size: 14px;
+  font-weight: 500;
+}
+.LeftSide .orders .customerContent .content > div:last-of-type {
+  font-size: 13px;
+  color: grey;
+}
+.LeftSide .orders .customerContent .content .state {
+  color: #2a7ff3 !important;
+  font-weight: 500;
+}
+.LeftSide .orders .gridlines .title,
+.LeftSide .orders .gridlines .state {
+  color: #2a7ff3 !important;
+  font-weight: 500;
+}
+.LeftSide .orders .gridlines {
+  padding: 15px 10px;
+  font-weight: 500;
+}
+.LeftSide .orders .gridlines .title {
+  margin-bottom: 9px;
+  font-size: 18px;
+}
+.LeftSide .orders .gridlines p {
+  margin-bottom: 7px;
+  font-size: 13px;
+}
+.LeftSide .orders .gridlines .lastContent p {
+  margin: 13px 0;
+  font-size: 15px;
+}
+.LeftSide .doneBtn {
+  width: 90%;
+  margin: auto 5%;
+  border: none;
+  padding: 10px;
+  background-color: #2a7ff3;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 30px;
+}

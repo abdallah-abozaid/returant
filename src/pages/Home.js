@@ -1,7 +1,6 @@
 import React from "react";
 import LeftSide from "../components/home/leftSide/LeftSide";
 import RightSide from "../components/home/rightSide/RightSide";
-import img from "../imges/test.jpg";
 const Home = () => {
   return (
     <div className="row Home  ">
